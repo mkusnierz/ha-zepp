@@ -220,7 +220,7 @@ export const nativeSlider = (args) => {
                     hmUI.deleteWidget(actionButton)
                     hmUI.deleteWidget(actionButtonIcon)
                 }
-                hmUI.redraw();
+                // hmUI.redraw();
                 hmApp.unregisterGestureEvent();
 
                 shown = false;

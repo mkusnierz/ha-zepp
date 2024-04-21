@@ -25,12 +25,12 @@ Page({
     },
     clearWidgets() {
         this.state.widgets.forEach((widget, index) => {
-            hmUI.deleteWidget(widget);
+            // hmUI.deleteWidget(widget);
         });
         this.state.widgets = [];
         this.state.rendered = false;
         this.state.y = TOP_BOTTOM_OFFSET; // start from this y to skip rounded border
-        hmUI.redraw();
+        // hmUI.redraw();
     },
     drawTextMessage(message, button) {
         this.clearWidgets();

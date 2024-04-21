@@ -68,7 +68,7 @@ AppSettingsPage({
       ) {
         return;
       }
-      if(!item.key.includes(filter)) {
+      if(filter && !item.key.includes(filter)) {
         return;
       }
       entityList.push(

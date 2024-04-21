@@ -41,7 +41,7 @@ Page({
     if (this.state.textWidget != null) {
       hmUI.deleteWidget(this.state.textWidget);
       this.state.textWidget = null;
-      hmUI.redraw();
+      // hmUI.redraw();
     }
   },
   drawTextMessage(message) {
